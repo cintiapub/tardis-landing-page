@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
+	<title>Tardis trip</title>
+</head>
+<body>
+	<h1>Travel inside the <span class="white-tardis">Tardis</span></h1>
+	<h4>Your chance is now! See the World in a magic way.</h4>
+	<div id="img-tardis"> 
+		<img src="./images/tardis.png">
+	</div>
+	<div class="text-tardis">
+		<h3>The Doctor's TARDIS </h3>
+		<p>Also called the Ship, the Box, and the TARDIS</p>
+		<br>
+		<h3>Travel around the universe</h3>
+		<p>The most awesome views, you can do it!</p>
+		<br>
+		<h3>Comfortable and magic</h3>
+		<p>Oh yes! It is much bigger on the inside.</p>
+	</div>
+
+	<div class="tickets">
+		<h3> Buy your tickets now!</h3>
+		<p>Send a message to us and know how.</p>
+		<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+			<div class="row">
+				<label for="name">Your name:</label><br />
+				<input id="name" class="input" name="name" type="text" value="" size="50" /><br />
+			</div><br>
+			<div class="row">
+				<label for="email">Your email:</label><br />
+				<input id="email" class="input" name="email" type="text" value="" size="50" /><br />
+			</div> <br>
+			<div class="row">
+				<label for="message">Why you want to travel on Tardis?</label><br />
+				<textarea id="message" class="input" name="message" rows="5" cols="48"></textarea><br />
+			</div><br>
+			<input id="submit_button" type="submit" value="Send" />
+			<br>
+		</form>	
+		<div class="icons">
+			<a href="#" target="_blank"><img src="./images/facebook.png"></a>				
+			<a href="#" target="_blank"><img src="./images/twitter.png"></a>	
+		</div>				
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+
+/*********** Text elements ***********/
+
+h1 {
+	font-size: 40px;
+	color: #42C3DC;
+	text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 2px;
+	text-align: right;
+	margin-right: 275px;
+}
+
+
+h3 {
+	color:#42C3DC;
+	text-align: center;
+}
+
+h4 {
+	color: white;
+	text-align: right;
+	margin-right: 315px;
+	font-size: 15px;
+}
+
+body {
+	font-family: 'Oxygen', sans-serif;
+	background-image: url('./images/stardust.png');
+	background-repeat: repeat-x,
+	repeat-y;
+}
+p {
+	color: white;
+	text-align: center;
+	margin-top: -15px;
+}
+
+.white-tardis {
+	color: #fff;
+}
+
+
+/*********** DIVs ***********/
+
+#img-tardis {
+	margin-top: -80px;
+	margin-left: 290px;
+}
+
+.text-tardis{
+	margin-top: 20px;
+	margin-left: 280px;
+	display: block;
+	float: left;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 30px 30px 30px 30px;
+	text-align: center;
+	color: white;
+}
+.tickets {
+	background-color: rgba(0, 0, 0, 0.25);
+	display: block;
+	float: right;
+	margin-right: 280px;
+	width: 400px;
+	margin-top: -55px; 
+	padding-top: 10px;
+}
+
+#contact_form {
+	margin-left: 45px;
+}
+
+.row {
+	color: white;
+}
+
+.icons {
+	float: right;
+	margin-bottom: 20px;
+	margin-right: 40px;
+	display: inline-block;
+}
+
+.icons img {
+	margin-left: 10px;
+}
+
+/*********** Responsible layout ***********/
+
+/* For 980px or less */  
+@media screen and (max-width: 980px){  
+
+	#img-tardis{  
+		display: none;
+	}  
+
+
+	h4 { display:none;}
+
+	.text-tardis, .tickets {  
+		clear: both;  
+
+
+	} 
+
+	h1 {
+
+		font-size: 25px;
+		margin-right: 345px;
+
+
+	}
+
+	.tickets { margin-top: 30px;} 
+
+	body {
+		
+		background-image: url('./images/stardust.png');
+		background-repeat: repeat;
+	}
+
+} 
+
+/* For 480px or less */ 
+@media screen and (max-width: 480px){  
+
+	#img-tardis{  
+		display: none;
+	}  
+
+
+	h4 { display:none;}
+
+	h1 {margin-left: 10px;}
+
+
+	.tickets {  
+		float: none;
+		margin-left: 10px;
+		width: 97%;
+		padding-bottom: 65px;
+
+	} 
+
+	body {
+		
+		background-image: url('./images/stardust.png');
+		background-repeat: repeat;
+	}
+
+	.text-tardis {display: none;}
+
+}  
+
+
+
